@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(0, 0, 3);
+}
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  padding: 200px 400px;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.input-add{
+  padding: 15px;
+  align-items: center;
+}
+
+.add-button{
+  background-color: rgb(46, 218, 12);
+  
+}
+.add-button:hover{
+  background-color: rgb(35, 146, 7);
+}
+.delete-button{
+  background-color: rgba(248, 9, 9, 0.979);
+}
+.delete-button:hover{
+  background-color: rgb(95, 6, 3);
+}
+
+.move-button{
+  background-color: rgb(18, 48, 212);
+}
+.move-button:hover{
+  background-color: rgb(18, 5, 92);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(196, 190, 190);
+  border-radius: 5px;
+  color: rgb(82, 90, 97);
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 3px solid rgb(196, 190, 190);
+  border-radius: 5px;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delete-button,.move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
